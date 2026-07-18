@@ -1,0 +1,18 @@
+                    AWS Account
+                         │
+        ┌────────────────┴────────────────┐
+        │                                 │
+   Root Account                    IAM Service
+                                         │
+             ┌───────────────────────────┼──────────────────────────┐
+             │                           │                          │
+         IAM Users                  IAM Groups                IAM Policies
+             │                           │                          │
+     DeveloperUser                 Developers             EC2StartStopOnly
+             │                           │                          │
+             └─────────────── Pertence ao Grupo ────────────────────┘
+                                         │
+                                   Permissões
+                                         │
+                                         ▼
+                               Amazon EC2 (Start/Stop)
