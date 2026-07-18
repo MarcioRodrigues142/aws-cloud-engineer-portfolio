@@ -1,5 +1,3 @@
-Claro, entendi. Aqui está o arquivo README completo em Markdown, é só copiá e colá.
-
 
 AWS Project01 IAM Foundation. Visão geral. Este projeto demonstra a implementação prática do AWS Identity and Access Management, o serviço responsável pelo gerenciamento de usuários, grupos, permissões e políticas de acesso na AWS. Projeto desenvolvido usando o AWS Management Console, aplicando boas práticas de segurança recomendadas pela AWS, como o princípio do menor privilégio (Least Privilege) e autenticação multifator (MFA). Objetivos. Criar usuários IAM. Criar grupos IAM. Criar políticas customizadas. Gerenciar permissões de acesso. Configurar MFA. Aplicar o princípio do menor privilégio. Validar as permissões configuradas.
 
