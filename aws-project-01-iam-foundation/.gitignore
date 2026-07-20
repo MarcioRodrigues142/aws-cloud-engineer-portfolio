@@ -1,0 +1,21 @@
+# AWS credentials and local configuration
+.aws/
+credentials
+config
+*.pem
+*.key
+.env
+.env.*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Operating system and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
