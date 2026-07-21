@@ -37,3 +37,11 @@ aws iam delete-policy \
 
 echo "Limpeza concluída para os recursos que puderam ser removidos."
 echo "Se o usuário possuir MFA, senha ou outras credenciais, remova-as manualmente antes de excluir o usuário."
+
+
+if aws iam get-user --user-name "${USER_NAME}" >/dev/null 2>&1; then
+  echo "Atenção: o usuário ${USER_NAME} ainda existe."
+  echo "Verifique MFA, senha, access keys ou outras credenciais associadas."
+else
+  echo "Usuário ${USER_NAME} removido com sucesso."
+fi

@@ -24,7 +24,7 @@ O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplican
 
 - AWS IAM
 - AWS Management Console
-- AWS CLI
+- AWS CLI, utilizado no script de limpeza
 - Bash
 - Git
 - GitHub
@@ -53,18 +53,18 @@ diagrams/iam.drawio
 
 Criar um usuário IAM com acesso ao Console da AWS.
 
-**Resultado esperado**
+**Resultado**
 
-- Usuário criado com sucesso
-- Credenciais geradas
-
+- Usuário criado com sucesso;
+- Credenciais configuradas manualmente, se necessário;
+- Nenhuma credencial armazenada no repositório.
 ---
 
 ## Etapa 2 – Criar um grupo IAM
 
 Criar um grupo chamado **Developers** para centralizar as permissões.
 
-**Resultado esperado**
+**Resultado**
 
 - Grupo criado com sucesso
 
@@ -74,7 +74,7 @@ Criar um grupo chamado **Developers** para centralizar as permissões.
 
 Criar uma política personalizada concedendo apenas as permissões necessárias para o laboratório.
 
-**Resultado esperado**
+**Resultado**
 
 - Política criada com sucesso
 
@@ -84,7 +84,7 @@ Criar uma política personalizada concedendo apenas as permissões necessárias 
 
 Vincular a política criada ao grupo **Developers**.
 
-**Resultado esperado**
+**Resultado**
 
 - Grupo com permissões configuradas
 
@@ -94,7 +94,7 @@ Vincular a política criada ao grupo **Developers**.
 
 Adicionar o usuário criado ao grupo **Developers**.
 
-**Resultado esperado**
+**Resultado**
 
 - Usuário herdando automaticamente as permissões do grupo
 
@@ -104,7 +104,7 @@ Adicionar o usuário criado ao grupo **Developers**.
 
 Habilitar a autenticação multifator para aumentar a segurança da conta.
 
-**Resultado esperado**
+**Resultado**
 
 - MFA configurado corretamente
 
@@ -114,7 +114,7 @@ Habilitar a autenticação multifator para aumentar a segurança da conta.
 
 Realizar login utilizando o usuário criado e validar os acessos concedidos.
 
-**Resultado esperado**
+**Resultado**
 
 - Acesso permitido somente aos recursos autorizados
 - Ações não permitidas bloqueadas corretamente
