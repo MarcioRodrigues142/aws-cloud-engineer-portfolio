@@ -1,6 +1,5 @@
 # Segurança
 
-<<<<<<< HEAD
 ## Boas práticas aplicadas
 
 - Não utilizar a conta Root no dia a dia.
@@ -25,4 +24,5 @@
 Usuários IAM são mantidos neste projeto para fins didáticos. Em ambientes corporativos, prefira federação de identidade, IAM Identity Center e roles temporárias sempre que possível.
 
 A política usa `Resource: "*"` porque as ações de descrição de EC2 não suportam o mesmo escopo de recurso das ações de iniciar/parar. O controle de acesso às ações de mudança é reforçado pela condição de tag.
->>>>>>> ca5c29f (feat: complete IAM foundation lab)
+
+(feat: complete IAM foundation lab)

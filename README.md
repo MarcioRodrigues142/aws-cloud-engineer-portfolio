@@ -34,7 +34,7 @@ O objetivo é demonstrar conhecimentos práticos em AWS por meio de projetos que
 
 ---
 
-# 🛠 Tecnologias
+# 🛠 Próximas tecnologias do portfólio
 
 - Amazon Web Services (AWS)
 - Linux
@@ -118,7 +118,7 @@ Meu objetivo é evoluir continuamente como profissional de infraestrutura e clou
 
 ⭐ Obrigado por visitar este repositório!
 
-<<<<<<< HEAD
+
 Fique à vontade para explorar os projetos e acompanhar minha evolução na área de Cloud Computing.
 =======
 Fique à vontade para explorar os projetos e acompanhar minha evolução na área de Cloud Computing.
@@ -126,4 +126,4 @@ Fique à vontade para explorar os projetos e acompanhar minha evolução na áre
 ## Observação sobre o status
 
 O Projeto 01 foi concluído como um laboratório documentado de IAM. A execução real na AWS deve ser feita pelo leitor utilizando os scripts e instruções da pasta do projeto. Nenhuma credencial ou segredo é armazenado neste repositório.
->>>>>>> ca5c29f (feat: complete IAM foundation lab)
+(feat: complete IAM foundation lab)
