@@ -20,7 +20,7 @@ O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplican
 
 ---
 
-# ☁️ ## Tecnologias utilizadas neste projeto
+## 🛠 Tecnologias utilizadas neste projeto
 
 - AWS IAM
 - AWS Management Console
