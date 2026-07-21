@@ -13,13 +13,13 @@ Demonstrar o gerenciamento de identidades utilizando o AWS IAM.
 
 ## Fluxo
 
-Administrator/IAM Admin
-        │
-        ├── Cria e administra
-        │
-        ├── Developers Group
-        │       └── Recebe a política EC2StartStopOnly
-        │
-        └── DeveloperUser
-                └── Pertence ao grupo Developers
-                         └── MFA
+## Fluxo
+
+ AWS Account │ 
+        └── IAM Service 
+        │ 
+        ├── IAM Group: Developers 
+        │       └── IAM Policy: EC2StartStopOnly 
+        │               └── IAM User: DeveloperUser 
+        ├── Membro do grupo Developers 
+                                └── MFA habilitado

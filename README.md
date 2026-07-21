@@ -118,12 +118,10 @@ Meu objetivo é evoluir continuamente como profissional de infraestrutura e clou
 
 ⭐ Obrigado por visitar este repositório!
 
-
-Fique à vontade para explorar os projetos e acompanhar minha evolução na área de Cloud Computing.
-=======
 Fique à vontade para explorar os projetos e acompanhar minha evolução na área de Cloud Computing.
 
 ## Observação sobre o status
 
-O Projeto 01 foi concluído como um laboratório documentado de IAM. A execução real na AWS deve ser feita pelo leitor utilizando os scripts e instruções da pasta do projeto. Nenhuma credencial ou segredo é armazenado neste repositório.
-(feat: complete IAM foundation lab)
+O Projeto 01 foi concluído como um laboratório documentado de IAM. A execução real na AWS deve ser feita pelo leitor utilizando os scripts e instruções da pasta do projeto.
+
+Nenhuma credencial ou segredo é armazenado neste repositório.

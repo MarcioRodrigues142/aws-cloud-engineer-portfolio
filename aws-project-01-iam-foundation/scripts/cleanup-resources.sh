@@ -17,4 +17,12 @@ aws iam delete-user --user-name "${USER_NAME}" 2>/dev/null || true
 aws iam delete-group --group-name "${GROUP_NAME}" 2>/dev/null || true
 aws iam delete-policy --policy-arn "${POLICY_ARN}" 2>/dev/null || true
 
-echo "Limpeza concluída. Se o usuário tiver MFA, remova o dispositivo MFA antes de excluir o usuário."
+read -r -p "Deseja remover os recursos IAM do laboratório? [y/N] " response
+
+if [[ "$response" != "y" && "$response" != "Y" ]]; then
+  echo "Operação cancelada."
+  exit 0
+fi
+
+echo "Limpeza concluída para os recursos que puderam ser removidos."
+echo "Se o usuário possuir MFA, senha ou outras credenciais, remova-as manualmente antes de excluir o usuário."

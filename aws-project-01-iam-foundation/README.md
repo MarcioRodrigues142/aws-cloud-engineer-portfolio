@@ -20,12 +20,15 @@ O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplican
 
 ---
 
-# ☁️ Serviços Utilizados
+# ☁️ ## Tecnologias utilizadas neste projeto
 
-- AWS Identity and Access Management (IAM)
+- AWS IAM
 - AWS Management Console
-- Multi-Factor Authentication (MFA)
-
+- AWS CLI
+- Bash
+- Git
+- GitHub
+- Draw.io
 ---
 
 # 📋 Pré-requisitos

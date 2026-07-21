@@ -21,7 +21,7 @@ Criar um usuário para acesso ao Console AWS.
 
 Resultado esperado:
 Usuário criado.
-=======
+
 > Execute o laboratório em uma conta AWS de testes e na região escolhida. Não versionar credenciais, access keys, códigos MFA ou arquivos `.csv` de senha.
 
 ## Recursos
