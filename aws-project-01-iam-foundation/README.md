@@ -129,10 +129,10 @@ aws-project-01-iam-foundation/
 ├── docs/
 ├── images/
 ├── policies/
+├── scripts/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-```
 
 ---
 

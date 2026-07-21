@@ -68,7 +68,6 @@ O objetivo é demonstrar conhecimentos práticos em AWS por meio de projetos que
 
 # 📁 Estrutura do Repositório
 
-```text
 aws-cloud-engineer-portfolio/
 │
 ├── aws-project-01-iam-foundation/
@@ -76,7 +75,6 @@ aws-cloud-engineer-portfolio/
 ├── aws-project-03-s3-static-website/
 ├── ...
 └── README.md
-```
 
 ---
 
