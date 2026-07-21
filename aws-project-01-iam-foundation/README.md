@@ -4,7 +4,7 @@
 
 Este projeto demonstra a implementação prática do **AWS Identity and Access Management (IAM)**, o serviço responsável pelo gerenciamento de identidades e controle de acesso aos recursos da AWS.
 
-O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplicando boas práticas recomendadas pela AWS, como o **Princípio do Menor Privilégio (Least Privilege)** e a **Autenticação Multifator (MFA)**.
+O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplicando boas práticas recomendadas pela AWS, como o **Princípio do Menor Privilégio** e a **Autenticação Multifator (MFA)**.
 
 ---
 
@@ -40,9 +40,7 @@ O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplican
 
 O diagrama da arquitetura pode ser encontrado em:
 
-```text
 diagrams/iam.drawio
-```
 
 ---
 
@@ -122,14 +120,12 @@ Realizar login utilizando o usuário criado e validar os acessos concedidos.
 
 # 📂 Estrutura do Projeto
 
-```text
 aws-project-01-iam-foundation/
 │
 ├── diagrams/
 ├── docs/
 ├── images/
 ├── policies/
-├── scripts/
 ├── README.md
 ├── LICENSE
 └── .gitignore
