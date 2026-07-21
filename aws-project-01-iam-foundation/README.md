@@ -45,15 +45,14 @@ O diagrama da arquitetura pode ser encontrado em:
 
 diagrams/iam.drawio
 
-```aws-project-01-iam-foundation/ │ ├── diagrams/ ├── docs/ ├── images/ ├── policies/ ├── scripts/ ├── README.md ├── LICENSE └── .gitignore ```
-
+```text aws-project-01-iam-foundation/ │ ├── diagrams/ ├── docs/ ├── images/ ├── policies/ ├── scripts/ ├── README.md ├── LICENSE └── .gitignore ```
 ---
 
 # 🚀 Implementação
 
 ## Etapa 1 – Criar um usuário IAM
 
-Criar um usuário IAM com acesso ao Console da AWS.
+Criar um usuário IAM. O acesso ao Console, a senha inicial e o MFA devem ser configurados manualmente, quando necessário.
 
 **Resultado**
 
