@@ -51,8 +51,10 @@ O objetivo é demonstrar conhecimentos práticos em AWS por meio de projetos que
 
 # 📂 Projetos
 
+
 # | Projeto | Serviços | Status |
 |---|----------|-----------|--------|
+
 | 01 | IAM Foundation | IAM | ✅ Concluído |
 | 02 | Fundamentos de Redes | VPC, Subnets, Route Tables, Internet Gateway | ⏳ Planejado |
 | 03 | Servidor Web com EC2 | EC2, Security Groups | ⏳ Planejado |
