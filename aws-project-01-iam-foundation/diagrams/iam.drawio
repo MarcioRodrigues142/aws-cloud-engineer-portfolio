@@ -1,18 +1,28 @@
-                    AWS Account
-                         │
-        ┌────────────────┴────────────────┐
-        │                                 │
-   Root Account                    IAM Service
-                                         │
-             ┌───────────────────────────┼──────────────────────────┐
-             │                           │                          │
-         IAM Users                  IAM Groups                IAM Policies
-             │                           │                          │
-     DeveloperUser                 Developers             EC2StartStopOnly
-             │                           │                          │
-             └─────────────── Pertence ao Grupo ────────────────────┘
-                                         │
-                                   Permissões
-                                         │
-                                         ▼
-                               Amazon EC2 (Start/Stop)
+AWS Account
+│
+├── Root User
+│   └── Uso emergencial e tarefas específicas da conta
+│
+└── IAM Service
+    │
+    ├── IAM User
+    │   └── DeveloperUser
+    │       └── MFA
+    │
+    ├── IAM Group
+    │   └── Developers
+    │       └── DeveloperUser pertence ao grupo
+    │
+    └── IAM Policy
+        └── EC2StartStopOnly
+            ├── ec2:DescribeInstances
+            ├── ec2:DescribeInstanceStatus
+            ├── ec2:StartInstances
+            └── ec2:StopInstances
+                Condition:
+                Environment=lab
+                    │
+                    ▼
+              Amazon EC2
+              Environment=lab
+              Start / Stop permitido
