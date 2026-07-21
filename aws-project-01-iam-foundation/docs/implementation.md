@@ -1,6 +1,5 @@
 # Implementação
 
-<<<<<<< HEAD
 ## Etapa 1
 
 Criar o grupo Developers
@@ -22,7 +21,7 @@ Criar um usuário para acesso ao Console AWS.
 
 Resultado esperado:
 Usuário criado.
-=======
+
 > Execute o laboratório em uma conta AWS de testes e na região escolhida. Não versionar credenciais, access keys, códigos MFA ou arquivos `.csv` de senha.
 
 ## Recursos
@@ -45,30 +44,6 @@ Usuário criado.
 7. Criar ou selecionar uma instância EC2 de laboratório com a tag `Environment=lab`.
 8. Fazer login como `DeveloperUser` e executar os testes de `docs/validation.md`.
 
-## Opção B — AWS CLI
-
-Configure um perfil administrativo localmente:
-
-```bash
-aws configure --profile portfolio-admin
-```
-
-Depois execute:
-
-```bash
-export AWS_PROFILE=portfolio-admin
-export AWS_REGION=us-east-1
-export POLICY_ARN="arn:aws:iam::<ACCOUNT_ID>:policy/EC2StartStopOnly"
-```
-
-Substitua `<ACCOUNT_ID>` pelo ID da sua conta e ajuste a região conforme necessário.
-
-O script `scripts/create-resources.sh` cria o grupo, a política, o usuário e associa os recursos. Por segurança, ele não cria senha nem access key automaticamente.
-
-```bash
-chmod +x scripts/create-resources.sh scripts/cleanup-resources.sh
-AWS_PROFILE=portfolio-admin AWS_REGION=us-east-1 ./scripts/create-resources.sh
-```
 
 ## MFA
 
@@ -81,4 +56,3 @@ O MFA deve ser configurado para o usuário pelo Console ou por um processo contr
 - O usuário pode consultar instâncias;
 - O usuário pode iniciar/parar somente instâncias com `Environment=lab`;
 - Ações administrativas, como terminar instâncias ou alterar IAM, são negadas.
->>>>>>> ca5c29f (feat: complete IAM foundation lab)

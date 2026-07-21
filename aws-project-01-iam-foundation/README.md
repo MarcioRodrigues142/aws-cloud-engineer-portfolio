@@ -4,7 +4,7 @@
 
 Este projeto demonstra a implementação prática do **AWS Identity and Access Management (IAM)**, o serviço responsável pelo gerenciamento de identidades e controle de acesso aos recursos da AWS.
 
-O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplicando boas práticas recomendadas pela AWS, como o **Princípio do Menor Privilégio (Least Privilege)** e a **Autenticação Multifator (MFA)**.
+O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplicando boas práticas recomendadas pela AWS, como o **Princípio do Menor Privilégio** e a **Autenticação Multifator (MFA)**.
 
 ---
 
@@ -20,12 +20,15 @@ O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplican
 
 ---
 
-# ☁️ Serviços Utilizados
+## 🛠 Tecnologias utilizadas neste projeto
 
-- AWS Identity and Access Management (IAM)
+- AWS IAM
 - AWS Management Console
-- Multi-Factor Authentication (MFA)
-
+- AWS CLI, utilizado no script de limpeza
+- Bash
+- Git
+- GitHub
+- Draw.io
 ---
 
 # 📋 Pré-requisitos
@@ -40,30 +43,29 @@ O laboratório foi desenvolvido utilizando o **AWS Management Console**, aplican
 
 O diagrama da arquitetura pode ser encontrado em:
 
-```text
 diagrams/iam.drawio
-```
 
+``` aws-project-01-iam-foundation/ │ ├── diagrams/ ├── docs/ ├── images/ ├── policies/ ├── scripts/ ├── README.md ├── LICENSE └── .gitignore ```
 ---
 
 # 🚀 Implementação
 
 ## Etapa 1 – Criar um usuário IAM
 
-Criar um usuário IAM com acesso ao Console da AWS.
+Criar um usuário IAM. O acesso ao Console, a senha inicial e o MFA devem ser configurados manualmente, quando necessário.
 
-**Resultado esperado**
+**Resultado**
 
-- Usuário criado com sucesso
-- Credenciais geradas
-
+- Usuário criado com sucesso;
+- Credenciais configuradas manualmente, se necessário;
+- Nenhuma credencial armazenada no repositório.
 ---
 
 ## Etapa 2 – Criar um grupo IAM
 
 Criar um grupo chamado **Developers** para centralizar as permissões.
 
-**Resultado esperado**
+**Resultado**
 
 - Grupo criado com sucesso
 
@@ -73,7 +75,7 @@ Criar um grupo chamado **Developers** para centralizar as permissões.
 
 Criar uma política personalizada concedendo apenas as permissões necessárias para o laboratório.
 
-**Resultado esperado**
+**Resultado**
 
 - Política criada com sucesso
 
@@ -83,7 +85,7 @@ Criar uma política personalizada concedendo apenas as permissões necessárias 
 
 Vincular a política criada ao grupo **Developers**.
 
-**Resultado esperado**
+**Resultado**
 
 - Grupo com permissões configuradas
 
@@ -93,7 +95,7 @@ Vincular a política criada ao grupo **Developers**.
 
 Adicionar o usuário criado ao grupo **Developers**.
 
-**Resultado esperado**
+**Resultado**
 
 - Usuário herdando automaticamente as permissões do grupo
 
@@ -103,7 +105,7 @@ Adicionar o usuário criado ao grupo **Developers**.
 
 Habilitar a autenticação multifator para aumentar a segurança da conta.
 
-**Resultado esperado**
+**Resultado**
 
 - MFA configurado corretamente
 
@@ -113,7 +115,7 @@ Habilitar a autenticação multifator para aumentar a segurança da conta.
 
 Realizar login utilizando o usuário criado e validar os acessos concedidos.
 
-**Resultado esperado**
+**Resultado**
 
 - Acesso permitido somente aos recursos autorizados
 - Ações não permitidas bloqueadas corretamente
@@ -122,7 +124,6 @@ Realizar login utilizando o usuário criado e validar os acessos concedidos.
 
 # 📂 Estrutura do Projeto
 
-```text
 aws-project-01-iam-foundation/
 │
 ├── diagrams/
@@ -133,7 +134,6 @@ aws-project-01-iam-foundation/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-```
 
 ---
 
@@ -174,6 +174,14 @@ Durante este projeto foi possível compreender:
 - CI/CD com GitHub Actions
 
 ---
+
+## Documentação
+
+- [Arquitetura](docs/architecture.md)
+- [Implementação](docs/implementation.md)
+- [Segurança](docs/security.md)
+- [Validação](docs/validation.md)
+- [Limpeza dos recursos](docs/cleanup.md)
 
 # 👨‍💻 Autor
 

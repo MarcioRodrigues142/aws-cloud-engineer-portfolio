@@ -2,17 +2,6 @@
 
 ## O que é o AWS IAM?
 
-<<<<<<< HEAD
-Resposta:
-É o serviço responsável pelo gerenciamento de identidades e permissões na AWS.
-
----
-
-## Qual a diferença entre User e Role?
-
-Resposta:
-...
-=======
 É o serviço responsável pelo gerenciamento de identidades, autenticação e autorização na AWS.
 
 ## Qual a diferença entre User e Role?
@@ -52,4 +41,3 @@ São documentos JSON que definem quais ações são permitidas ou negadas, para 
 ## Como validar uma política IAM?
 
 Além da execução prática, pode-se usar o IAM Policy Simulator, a AWS CLI, logs do CloudTrail e testes positivos e negativos de autorização.
->>>>>>> ca5c29f (feat: complete IAM foundation lab)

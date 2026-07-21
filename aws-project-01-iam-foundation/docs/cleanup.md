@@ -2,9 +2,9 @@
 
 Para evitar recursos e identidades esquecidas:
 
-```bash
+bash
 AWS_PROFILE=portfolio-admin ./scripts/cleanup-resources.sh
-```
+
 
 Se o usuário tiver um dispositivo MFA, remova-o pelo Console ou pela AWS CLI antes de excluir o usuário.
 

@@ -27,21 +27,17 @@
 
 Após autenticar como `DeveloperUser`:
 
-```bash
 aws sts get-caller-identity
 aws ec2 describe-instances --region us-east-1
 aws ec2 describe-instance-status --include-all-instances --region us-east-1
 aws ec2 start-instances --instance-ids <INSTANCE_ID> --region us-east-1
 aws ec2 stop-instances --instance-ids <INSTANCE_ID> --region us-east-1
-```
 
 O usuário deve conseguir executar os comandos de consulta e iniciar/parar somente a instância autorizada pela tag.
 
 Para testar uma ação proibida:
 
-```bash
 aws ec2 terminate-instances   --instance-ids <INSTANCE_ID>   --region us-east-1
-```
 
 O resultado esperado é `AccessDenied`.
 
