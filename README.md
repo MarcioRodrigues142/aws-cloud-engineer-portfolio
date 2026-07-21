@@ -54,31 +54,18 @@ O objetivo é demonstrar conhecimentos práticos em AWS por meio de projetos que
 
 # | Projeto | Serviços | Status |
 |---|----------|-----------|--------|
-
 | 01 | IAM Foundation | IAM | ✅ Concluído |
-
 | 02 | Fundamentos de Redes | VPC, Subnets, Route Tables, Internet Gateway | ⏳ Planejado |
-
 | 03 | Servidor Web com EC2 | EC2, Security Groups | ⏳ Planejado |
-
 | 04 | Site Estático | Amazon S3 | ⏳ Planejado |
-
 | 05 | DNS | Route 53 | ⏳ Planejado |
-
 | 06 | Banco de Dados | Amazon RDS | ⏳ Planejado |
-
 | 07 | Alta Disponibilidade + Escalabilidade | Application Load Balancer, Auto Scaling | ⏳ Planejado |
-
 | 08 | Monitoramento | CloudWatch, SNS | ⏳ Planejado |
-
 | 09 | Backup e Disaster Recovery | Lambda, EventBridge, Snapshots | ⏳ Planejado |
-
 | 10 | Infraestrutura como Código | Terraform | ⏳ Planejado |
-
 | 11 | Containers | Docker na EC2 → evolução para ECS/Fargate | ⏳ Planejado |
-
 | 12 | Serverless | Lambda, API Gateway, DynamoDB | ⏳ Planejado |
-
 | 13 | Pipeline CI/CD | GitHub Actions + AWS | ⏳ Planejado |
 
 ---
