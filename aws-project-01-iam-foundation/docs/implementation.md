@@ -56,4 +56,3 @@ O MFA deve ser configurado para o usuário pelo Console ou por um processo contr
 - O usuário pode consultar instâncias;
 - O usuário pode iniciar/parar somente instâncias com `Environment=lab`;
 - Ações administrativas, como terminar instâncias ou alterar IAM, são negadas.
-(feat: complete IAM foundation lab)

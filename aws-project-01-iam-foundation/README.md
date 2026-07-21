@@ -45,7 +45,7 @@ O diagrama da arquitetura pode ser encontrado em:
 
 diagrams/iam.drawio
 
-```text aws-project-01-iam-foundation/ │ ├── diagrams/ ├── docs/ ├── images/ ├── policies/ ├── scripts/ ├── README.md ├── LICENSE └── .gitignore ```
+``` aws-project-01-iam-foundation/ │ ├── diagrams/ ├── docs/ ├── images/ ├── policies/ ├── scripts/ ├── README.md ├── LICENSE └── .gitignore ```
 ---
 
 # 🚀 Implementação

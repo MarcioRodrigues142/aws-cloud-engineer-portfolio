@@ -45,7 +45,9 @@ O objetivo é demonstrar conhecimentos práticos em AWS por meio de projetos que
 - GitHub Actions
 - Draw.io
 
+
 ---
+
 
 # 📂 Projetos
 
@@ -68,7 +70,7 @@ O objetivo é demonstrar conhecimentos práticos em AWS por meio de projetos que
 
 # 📁 Estrutura do Repositório
 
-```text aws-cloud-engineer-portfolio/ │ ├── aws-project-01-iam-foundation/ ├── aws-project-02-ec2-webserver/ ├── aws-project-03-s3-static-website/ └── README.md ```
+``` aws-cloud-engineer-portfolio/ │ ├── aws-project-01-iam-foundation/ ├── aws-project-02-ec2-webserver/ ├── aws-project-03-s3-static-website/ └── README.md ```
 ---
 
 # 🎓 Competências Demonstradas
